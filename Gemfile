@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'jquery-rails'
+gem 'faker',  '1.7.3'
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -41,6 +44,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rails-controller-testing'
   gem 'sqlite3'
+  gem 'pry'
 end
 
 group :development do

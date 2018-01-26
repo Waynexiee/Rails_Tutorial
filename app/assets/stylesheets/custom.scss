@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 $light-gray: #777;
+$gray-lighter: #888;
 body {
   padding-top: 60px;
 }
@@ -126,6 +127,16 @@ aside {
 
 .gravatar_edit {
   margin-top: 15px;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
 
 /* form */
