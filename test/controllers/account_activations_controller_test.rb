@@ -5,5 +5,5 @@ class AccountActivationsControllerTest < ActionDispatch::IntegrationTest
   #   assert true
   # end
 
-  
+
 end
